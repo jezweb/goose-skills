@@ -24,6 +24,10 @@ If a candidate skill fails these, we rewrite it to pass or leave it out.
 |---|---|---|
 | [`install-officecli`](skills/install-officecli/SKILL.md) | setup | Install the OfficeCLI binary (create/read/edit `.docx`/`.xlsx`/`.pptx`, no Microsoft Office) + register it as a Goose MCP server. Checksum-verified. |
 | [`install-gws`](skills/install-gws/SKILL.md) | setup | Install the official Google Workspace CLI (`gws`) for Gmail/Drive/Docs/Sheets/Calendar from the shell. |
+| [`social-post`](skills/social-post/SKILL.md) | content | Shape something worth sharing into a platform-fit post (LinkedIn/X/Facebook/Instagram). Drafts only — never posts. |
+| [`newsletter`](skills/newsletter/SKILL.md) | content | Draft an email newsletter or brainstorm its topics from the business's own recent work. Drafts only — sends on approval. |
+
+**Two kinds here:** `setup` skills install a tool; `content` skills do the reversible, human-gated work a business would hand a VA. The content ones are deliberately ~20 lines — they carry the channel shape, a pointer to the owner's voice, and the approval guard, and leave the writing to the model (which already knows how).
 
 ## Installing a skill into Goose
 
