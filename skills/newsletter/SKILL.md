@@ -23,6 +23,7 @@ Match the register of prior newsletters if any exist.
 - Lead with the reader's interest, not "here's our news".
 
 **The guard (load-bearing):** newsletters go to a list — sending is irreversible.
-Draft only. Then send a test to the owner, check the schedule for conflicts, and
-send to the list only on an explicit yes. Use a send tool if one's wired (SMTP2Go,
-the list platform) — but the approval gate is non-negotiable.
+**Draft only.** If the box has a sending tool wired (the business's *own* email/list
+platform — never a tool that isn't theirs), the flow is: send a test to the owner →
+confirm timing → send only on an explicit yes. If nothing's wired, hand the draft off
+for the owner to send themselves. Either way the approval gate is non-negotiable.
