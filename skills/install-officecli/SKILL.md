@@ -25,7 +25,7 @@ checksum step is the point of this skill.
 Pinned version (bump deliberately; always re-verify the checksum):
 
 ```bash
-VER="v1.0.102"
+VER="v1.0.104"
 REPO="iOfficeAI/OfficeCLI"
 
 # 1. Detect platform → release asset name
